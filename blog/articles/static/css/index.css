@@ -27,10 +27,11 @@ body {
 
 .links {
     list-style: none;
+    border-left: 1px solid;
+    padding-left: 10px;
 }
 
 .description {
     list-style: none;
     padding-left: 0;
-}
 }
