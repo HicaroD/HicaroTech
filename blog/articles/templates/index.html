@@ -5,10 +5,31 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/articles.css' %}">
+    <script src="https://kit.fontawesome.com/70f29d5e96.js" crossorigin="anonymous"></script>
     <title>HícaroTech</title>
 </head>
 <body>
-    {% block content %}
-    {% endblock %}
+    <nav class="page-intro">
+        <div class="personal-intro">
+            <h1 id="name">HÍCARO DÂNRLLEY</h1>
+            <ul class="description">
+                <li>Software developer</li>
+                <li>Comp.Sci student</li>
+            </ul>
+        </div>
+
+        <ul class="links">
+            <li><i class="fa-brands fa-github"></i><a href="">GitHub</a></li>
+            <li><i class="fa-brands fa-twitter"></i><a href="">Twitter</a></li>
+            <li><i class="fa-solid fa-link"></i><a href="">Portfolio</a></li>
+        </ul>
+    </nav>
+    <hr style="width: 45%;">
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
 </body>
 </html>
