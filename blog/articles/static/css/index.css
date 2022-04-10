@@ -29,6 +29,11 @@ body {
     list-style: none;
     border-left: 1px solid;
     padding-left: 10px;
+    padding: 10px;
+}
+
+.links li {
+    padding: 2px;
 }
 
 .description {

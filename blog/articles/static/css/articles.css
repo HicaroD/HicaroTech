@@ -1,4 +1,6 @@
 .articles {
     width: 45%;
     margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
 }
