@@ -4,7 +4,7 @@
     <ul class="articles">
         {% for article in object_list %}
         <li class="article">
-            <p id="article-name">{{article.name}}</p>
+            <p id="article-name"><a href="{{ article.get_absolute_url }}">{{article.name}}</a></p>
         </div>
         {% endfor %}
     </ul>
