@@ -8,6 +8,11 @@
     src: url('../fonts/Cinzel-Regular.ttf');
 }
 
+@font-face {
+    font-family: "Metropolis";
+    src: url('../fonts/Metropolis-Medium.otf');
+}
+
 body {
     background-color: #2C3333;
     color: white;
