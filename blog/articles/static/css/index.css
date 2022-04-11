@@ -45,3 +45,7 @@ body {
     list-style: none;
     padding-left: 0;
 }
+
+.dates li {
+    padding: 3px;
+}
