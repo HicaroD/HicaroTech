@@ -8,8 +8,10 @@
                 <h3><a href="{{ article.get_absolute_url }}">{{article.name}}</a></h3>
             </div>
             <div class="info">
-                <p id="created_at">{{article.created_at}}</p>
-                <p id="updated_at">{{article.updated_at}}</p>
+                <ul class="dates">
+                    <li><i class="fa-solid fa-calendar"></i><span id="created_at"> {{article.created_at|date:'D, M, y'}}</span></li>
+                    <li><i class="fa-solid fa-pen"></i><span id="created_at"> {{article.updated_at|date:'D, M, y'}}</span></li>
+                </ul>
             </div>
         </div>
         {% endfor %}
