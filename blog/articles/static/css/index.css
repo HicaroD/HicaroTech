@@ -8,6 +8,11 @@
     src: url('../fonts/Cinzel-Regular.ttf');
 }
 
+@font-face {
+    font-family: "Metropolis";
+    src: url('../fonts/Metropolis-Medium.otf');
+}
+
 body {
     background-color: #2C3333;
     color: white;
@@ -15,7 +20,7 @@ body {
 
 .page-intro {
     display: flex;
-    width: 45%;
+    width: 40%;
     margin: 0 auto;
     font-family: "Cinzel";
     justify-content: space-between;
@@ -39,4 +44,8 @@ body {
 .description {
     list-style: none;
     padding-left: 0;
+}
+
+.dates li {
+    padding: 5px;
 }

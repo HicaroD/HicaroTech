@@ -3,4 +3,24 @@
     margin: 0 auto;
     list-style: none;
     padding-left: 0;
+    font-family: "Metropolis";
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px grey;
+}
+
+.article a {
+    text-decoration: none;
+}
+
+.article a:visited {
+    color: #3391ff;
+}
+
+.name {
+    justify-content: center;
+    align-self: center;
 }
