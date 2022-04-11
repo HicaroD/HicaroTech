@@ -9,10 +9,15 @@
 .article {
     display: flex;
     justify-content: space-between;
+    border-bottom: solid 1px grey;
+}
+
+.article a {
+    text-decoration: none;
 }
 
 .article a:visited {
-    color: #551A8B;
+    color: #3391ff;
 }
 
 .name {
