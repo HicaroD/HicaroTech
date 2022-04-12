@@ -1,4 +1,11 @@
 {% extends 'index.html' %}
 
 {% block content %}
+
+<div class="article-body">
+    {% autoescape off %}
+        {{object.body}}
+    {% endautoescape %}
+</div>
+
 {% endblock %}
