@@ -1,4 +1,4 @@
-.articles {
+.article-list {
     width: 45%;
     margin: 0 auto;
     list-style: none;
@@ -6,23 +6,28 @@
     font-family: "Metropolis";
 }
 
-.article {
+.article-item {
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px grey;
     padding: 10px;
 }
 
-.article a {
+.article-item a {
     text-decoration: none;
     color: #3391ff;
 }
 
-.article a:visited {
+.article-item a:visited {
     color: #3391ff;
 }
 
 .name {
     justify-content: center;
     align-self: center;
+}
+
+.article-body {
+    width: 45%;
+    margin: 0 auto;
 }
