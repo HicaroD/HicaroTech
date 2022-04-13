@@ -31,3 +31,7 @@
     width: 45%;
     margin: 0 auto;
 }
+
+.article-body img {
+    width: 70%;
+}
