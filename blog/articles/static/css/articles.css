@@ -35,3 +35,7 @@
 .article-body img {
     width: 70%;
 }
+
+.article-body code {
+    background-color: #1a1a1a;
+}
