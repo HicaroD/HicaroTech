@@ -3,11 +3,11 @@ from django.urls import reverse
 from django.utils.text import slugify
 
 class Article(models.Model):
-    name = models.CharField(max_length=50)
+    name = models.CharField(max_length=60)
     body = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    slug = models.SlugField(unique=True)
+    slug = models.SlugField(unique=True, null=True)
 
     def __str__(self):
         return self.name

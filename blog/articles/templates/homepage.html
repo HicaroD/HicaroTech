@@ -1,9 +1,9 @@
 {% extends 'index.html' %}
 
 {% block content %}
-    <ul class="articles">
+    <ul class="article-list">
         {% for article in object_list %}
-        <li class="article">
+        <li class="article-item">
             <div class="name">
                 <h3><a href="{{ article.get_absolute_url }}">{{article.name}}</a></h3>
             </div>
