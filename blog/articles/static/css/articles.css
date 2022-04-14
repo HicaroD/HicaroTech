@@ -27,9 +27,10 @@
     width: 70%;
 }
 
-.article-body {
+.article {
     width: 45%;
     margin: 0 auto;
+    font-family: "Metropolis";
 }
 
 .article-body img {
@@ -38,4 +39,14 @@
 
 .article-body code {
     background-color: #1a1a1a;
+}
+
+#article-name {
+    text-align: center;
+}
+
+.article-dates ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
 }
