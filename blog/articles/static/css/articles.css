@@ -23,8 +23,8 @@
 }
 
 .name {
-    justify-content: center;
     align-self: center;
+    width: 70%;
 }
 
 .article-body {
