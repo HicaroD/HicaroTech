@@ -11,7 +11,7 @@ let colorscheme_link = document.getElementById("colorscheme");
 
 for (const [colorscheme, colorscheme_path] of colorschemes) {
     document.getElementById(colorscheme).onclick = function() {
-        colorscheme_link.href = base_colorscheme_url + colorschemes.get(colorscheme); 
+        colorscheme_link.href = base_colorscheme_url + colorscheme_path;
         console.log(colorscheme_link);
     };
 }
