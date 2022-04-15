@@ -1,5 +1,5 @@
-var base_colorscheme_url = "//unpkg.com/@highlightjs/cdn-assets@11.5.1/styles/";
-var colorschemes = new Map([
+let base_colorscheme_url = "//unpkg.com/@highlightjs/cdn-assets@11.5.1/styles/";
+let colorschemes = new Map([
     ["atom", "atom-one-dark.min.css"],
     ["github", "github-dark.min.css"],
     ["monokai", "monokai.min.css"],
@@ -7,7 +7,7 @@ var colorschemes = new Map([
     ["nord", "nord.min.css"],
     ["gruvbox", "base16/gruvbox-dark-hard.min.css"],
 ])
-var colorscheme_link = document.getElementById("colorscheme");
+let colorscheme_link = document.getElementById("colorscheme");
 
 for (const [colorscheme, colorscheme_path] of colorschemes) {
     document.getElementById(colorscheme).onclick = function() {
